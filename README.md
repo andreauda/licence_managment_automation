@@ -6,6 +6,7 @@ This project automates license management by extracting data, synchronizing emai
 
 The project is organized as follows:
 
+```plaintext
 project/
 │
 ├── main.py               # Main script to run the workflow
