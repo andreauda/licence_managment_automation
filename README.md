@@ -13,6 +13,7 @@ project/
 │
 ├── src/                     # Source code organized into modules
 │   ├── __init__.py          # Initializes the src package
+│   ├── database.py          # Operations on PostgreSQL
 │   ├── selenium_portal.py   # Functions for interacting with the license portal
 │   ├── utils.py             # Utility functions (e.g., for CSV handling)
 │
