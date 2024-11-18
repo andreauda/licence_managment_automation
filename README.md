@@ -57,11 +57,11 @@ project/
    git clone <repository-url>
    cd project
 
-Install dependencies:
+2. Install dependencies:
 
     pip install -r requirements.txt
 
-    Configure the main variables in main.py and set file paths in the CSV files.
+3. Configure the main variables in main.py and set file paths in the CSV files.
 
 Execution
 
