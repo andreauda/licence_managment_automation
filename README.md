@@ -26,6 +26,7 @@ project/
 │
 ├── requirements.txt      # Dependencies required to run the project
 └── README.md             # Documentation of the project
+```
 
 
 ## Features
