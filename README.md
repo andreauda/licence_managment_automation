@@ -63,17 +63,17 @@ project/
 
 3. Configure the main variables in main.py and set file paths in the CSV files.
 
-Execution
+## Execution
 
 Run the main script to execute the complete workflow:
 
 python main.py
 
-Configuration
+## Configuration
 
-    Logs: Log files are saved in the log/ folder.
-    Paths: Update the paths for CSV files or the driver in main.py or configuration files as needed.
+-   Logs: Log files are saved in the log/ folder.
+-   Paths: Update the paths for CSV files or the driver in main.py or configuration files as needed.
 
-Contributions
+## Contributions
 
 Contributions are welcome! To propose changes, create a dedicated branch and submit a pull request.
