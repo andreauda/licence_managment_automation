@@ -74,7 +74,3 @@ python main.py
 
 -   Logs: Log files are saved in the log/ folder.
 -   Paths: Update the paths for CSV files or the driver in main.py or configuration files as needed.
-
-## Contributions
-
-Contributions are welcome! To propose changes, create a dedicated branch and submit a pull request.
