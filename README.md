@@ -1,6 +1,9 @@
 # Licenses Management Automation
 
-This project automates license management by extracting data, synchronizing email lists, and revoking licenses using Selenium and CSV files.
+This project automates license management by:
+- extracting data
+- synchronizing email lists
+- revoking licenses using Selenium
 
 ## Project Structure
 
@@ -13,7 +16,7 @@ project/
 │
 ├── src/                     # Source code organized into modules
 │   ├── __init__.py          # Initializes the src package
-│   ├── database.py          # Operations on PostgreSQL
+│   ├── database.py          # Operations on PostgreSQL (working in progress)
 │   ├── selenium_portal.py   # Functions for interacting with the license portal
 │   └──  utils.py             # Utility functions (e.g., for CSV handling)
 │
@@ -33,7 +36,7 @@ project/
 ## Features
 
 1. **Data Extraction from Database** 
-   Extracts data from PostgreSQL and saves it to a CSV file.
+   - Extracts data from PostgreSQL and saves it to a CSV file.
 
 2. **Selenium Automation**  
    - Logs into the license portal.
