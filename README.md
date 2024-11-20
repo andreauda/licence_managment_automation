@@ -5,6 +5,15 @@ This project automates license management by:
 - synchronizing email lists
 - revoking licenses using Selenium
 
+## Description 
+This project is a Python-based solution for automating the management of Tableau licenses. While it leverages some principles of Robotic Process Automation (RPA), such as interacting with a web interface, it primarily combines Python libraries and browser automation tools.
+
+### Technologies Used
+- Python: The backbone of the automation, handling data extraction, processing, and integration.
+- Selenium: This is for browser automation and interaction with the Tableau License Portal.
+- PostgreSQL: As the source of truth for license usage data.
+- CSV: To document and archive the actions performed.
+
 ## Project Structure
 
 The project is organized as follows:
@@ -36,7 +45,9 @@ project/
 ## Features
 
 1. **Data Extraction from Database** 
-   - Extracts data from PostgreSQL and saves it to a CSV file.
+   - Connects to a PostgreSQL database to retrieve detailed usage data for Tableau licenses.
+   - Performs queries to identify underutilized or unused licenses.
+   - Saves in a CSV file.
 
 2. **Selenium Automation**  
    - Logs into the license portal.
@@ -45,7 +56,6 @@ project/
 
 3. **CSV Management**  
    - Synchronizes two email lists and retains only common ones.
-   - Saves results to organized CSV files.
 
 ## Prerequisites
 
