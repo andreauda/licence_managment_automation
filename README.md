@@ -59,7 +59,7 @@ project/
 1. Clone the repository:
    ```bash
    git clone https://github.com/andreauda/licence_managment_automation.git
-   cd project
+   cd licence_managment_automation
 
 2. Install dependencies:
 
